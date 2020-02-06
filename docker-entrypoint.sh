@@ -9,13 +9,6 @@ gcloud config set project ${GOOGLE_PROJECT_ID}
 
 echo "<h3>Starting the build</h3>"
 
-# echo "<h3>Checkout source code</h3>"
-# git clone ${PROJECT_REPOSITORY_URL} ${PROJECT_REPOSITORY_NAME} 
-# cd ${PROJECT_REPOSITORY_NAME}
-# git checkout ${PROJECT_BRANCH}
-# # Have rvm recheck ruby version
-# cd .
-
 echo "<h3>Dependencies</h3>"
 
 # default language dependencies
