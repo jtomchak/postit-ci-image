@@ -2,7 +2,6 @@
 trap 'exit' ERR
 
 echo "<h3>Auth with GCloud</h3>"
-echo ${GOOGLE_ACCOUNT_KEY} > account.json
 gcloud auth activate-service-account --key-file=account.json
 gcloud config set project ${GOOGLE_PROJECT_ID}
 
