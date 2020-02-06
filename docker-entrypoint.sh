@@ -22,8 +22,7 @@ echo "<h3>Dependencies</h3>"
 echo Exporting NODE_ENV
 export NODE_ENV=production
 # echo Exporting USERNAME HERE
-# node -v
-# npm -v
+export username=$USERNAME
 
 
 # echo "<h3>Setup node_modules</h3>"
