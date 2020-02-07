@@ -22,3 +22,5 @@
 `docker run -it --rm -e GOOGLE_ACCOUNT_KEY="$(< ~/.gcloud/keyfile.json)" -e GOOGLE_PROJECT_ID=post-it-services -e USERNAME=jesse postit/ci:latest`
 
 - revised: `docker run -it --rm -e GOOGLE_ACCOUNT_KEY="$(< ~/.gcloud/keyfile.json)" -e GOOGLE_PROJECT_ID=post-it-services -e USERNAME=jesse jtomchak/postitci:latest`
+
+- revised: remember anytime you update this image, you'll need to make sure teh cicd server has pulled the latest image of ci in order to reflex changes on the server. 
